@@ -1,0 +1,11 @@
+.Square {
+    background-color: #c99462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 43px;
+}
+
+.Square-white {
+    background-color: #ffffff;
+}

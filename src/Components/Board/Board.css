@@ -1,0 +1,18 @@
+.Board {
+    width: 500px;
+    height: 500px;
+    border: 1px #494844 solid;
+    background-color: #a5601b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Squares {
+    width: 92%;
+    height: 92%;
+    border: 1px #494844 solid;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
